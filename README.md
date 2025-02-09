@@ -1,4 +1,3 @@
-﻿# 3rd-Person-Controller / Rapid-prototype
-
-A specific 3rd-person controller setup made with a sole purpose of benchmarking different rendering pipelines. 
+﻿# 3rd-Person-Controller
+
 - Potential DMCA risk.
