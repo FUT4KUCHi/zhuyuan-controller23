@@ -1,0 +1,18 @@
+[gd_resource type="AudioBusLayout" load_steps=3 format=3 uid="uid://bterdpl6ublad"]
+
+[sub_resource type="AudioEffectReverb" id="AudioEffectReverb_tuf4u"]
+resource_name = "Reverb"
+room_size = 0.3
+damping = 0.05
+wet = 0.1
+
+[sub_resource type="AudioEffectPanner" id="AudioEffectPanner_pwuuh"]
+resource_name = "Panner"
+pan = -0.5
+
+[resource]
+bus/0/volume_db = -4.003
+bus/0/effect/0/effect = SubResource("AudioEffectReverb_tuf4u")
+bus/0/effect/0/enabled = true
+bus/0/effect/1/effect = SubResource("AudioEffectPanner_pwuuh")
+bus/0/effect/1/enabled = true
